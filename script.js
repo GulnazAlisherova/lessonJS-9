@@ -6,7 +6,7 @@ document.querySelector('select').addEventListener('input', function(){
     }
     else {
       ul.className = 'hidden';
-    }
+    } ///
   });
 });
 

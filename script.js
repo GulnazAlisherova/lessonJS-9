@@ -12,7 +12,7 @@ document.body.classList.toggle('hello');
 document.body.classList.toggle('hello', 4 > 4);
 document.body.classList.replace('hello', 'bye');
 if (document.body.classList.contains('bye')){
-
 }
 
-document
+
+

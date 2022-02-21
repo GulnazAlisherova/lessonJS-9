@@ -6,9 +6,15 @@ document.querySelector('select').addEventListener('input', function(){
     }
     else {
       ul.className = 'hidden';
-    } ///
+    } 
   });
 });
 
+function blabla() {
 
+}
+const blabla2 = () => {
 
+}
+blabla();
+blabla2();

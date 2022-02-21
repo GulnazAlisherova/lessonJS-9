@@ -1,20 +1,6 @@
 document.querySelector('select').addEventListener('input', function(){
-  const value = this.value;
-  document.querySelectorAll('ul').forEach(function(ul){
-    if (value === ul.id) {
-      ul.className = '';
-    }
-    else {
-      ul.className = 'hidden';
-    } 
-  });
+  
+  document.querySelectorAll('ul').forEach(
+   ul => ul.classList.toggle('hidden', this.value !== ul.id)
+  );
 });
-
-function blabla() {
-
-}
-const blabla2 = () => {
-
-}
-blabla();
-blabla2();

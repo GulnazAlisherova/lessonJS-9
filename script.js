@@ -34,7 +34,7 @@ document.getElementById('art2').addEventListener('click',function(){
 });
 
 let article3 = document.getElementById('article3');
-article3.style.display = "none"; // сти
+article3.style.display = "none"; // стил
 document.getElementById('art3').addEventListener('dblclick',function(){
   article3.style.display = "block";
 });

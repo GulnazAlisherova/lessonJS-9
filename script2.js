@@ -4,4 +4,4 @@ details.forEach((detail) => {
     let article = document.querySelector(`${e.target.id}`);
     article.style.display = 'none';
   });
-}); ///t 
+}); ///th

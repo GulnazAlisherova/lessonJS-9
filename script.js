@@ -14,7 +14,6 @@
 // if (document.body.classList.contains('bye')){
 // }
 
-
 let article = document.getElementById('article');
 article.style.display = "none";
 document.getElementById('art1').addEventListener('dblclick',function(){

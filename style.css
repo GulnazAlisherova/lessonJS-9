@@ -3,8 +3,5 @@ h1 {
 }
 img{
   float: left;
-  padding-right: 10px;
-}
-body {
-  background-color: beige;
+  padding-right: 10px; //
 }

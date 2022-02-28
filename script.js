@@ -6,7 +6,7 @@
 // }); 
 
 // document.body.classList.add('hello');
-// document.body.classList.remove('hello'); //
+// document.body.classList.remove('hello');
 
 // document.body.classList.toggle('hello');
 // document.body.classList.toggle('hello', 4 > 4);

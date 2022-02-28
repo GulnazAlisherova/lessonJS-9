@@ -6,7 +6,7 @@
 // }); 
 
 // document.body.classList.add('hello');
-// document.body.classList.remove('hello');
+// document.body.classList.remove('hello'); //
 
 // document.body.classList.toggle('hello');
 // document.body.classList.toggle('hello', 4 > 4);
@@ -34,7 +34,7 @@ document.getElementById('art2').addEventListener('click',function(){
 });
 
 let article3 = document.getElementById('article3');
-article3.style.display = "none"; // стил
+article3.style.display = "none"; // стиль
 document.getElementById('art3').addEventListener('dblclick',function(){
   article3.style.display = "block";
 });

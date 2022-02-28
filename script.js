@@ -39,6 +39,7 @@ document.getElementById('art3').addEventListener('dblclick',function(){
   article3.style.display = "block";
 });
 document.getElementById('art3').addEventListener('click',function(){ // по  id выби
+  
   article3.style.display = "none";
 });
 
